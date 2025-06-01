@@ -1,0 +1,17 @@
+<%- include('Head') %>
+<body>
+<%- include('Header',{messages}) %>
+<a href="/new"><div class="add-logo">+</div></a>
+<div class="home-content">
+    <% messages.forEach((msg,index) => { %>
+  <div>
+    <h3>User: <%= msg.user %></h3>
+    <p><%= msg.text %></p>
+    <p>On <%= msg.added %></p>
+    <a href="/info"><button>open</button></a>
+  </div>
+<% }) %>
+
+</div>
+</body>
+</html>
