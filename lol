@@ -1,4 +1,4 @@
-    <!-- <div>
+<!-- <div>
         <b><h3>User : <%= messages[0].user %></h3></b>
         <p><%= messages[0].text %></p>
         <p>On <%= messages[0].added %></p>
@@ -26,3 +26,11 @@
         <button>open</button>
       </div>
     </div> -->
+<!-- <% if (errors && errors.length > 0) { %>
+  <ul>
+    <% errors.forEach((err) => { %>
+      <li><%= err.msg %></li>
+    <% }) %>
+  </ul>
+    <% } %>
+</div> -->

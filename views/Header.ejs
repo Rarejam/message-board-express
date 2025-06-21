@@ -1,11 +1,16 @@
-    <header>
-        <div class="header-content">
-            <div>message-board</div>
-            <div>
-            <ul>
-                <a href="/"><li>Home</li></a>
-                <a href="/new"><li>message</li></a>
-            </ul>
-            </div>
-        </div>
-    </header>
+<header>
+  <div class="header-content">
+    <div>message-board</div>
+    <form action="/" method="get" class="search-form">
+      <input type="text" placeholder="search-user" name="search-user" />
+      <button type="submit" class="search-submit">search</button>
+      <!-- use req.query to get the info from the search url and display the likely info -->
+    </form>
+    <div>
+      <ul>
+        <a href="/"><li>Home</li></a>
+        <a href="/new"><li>message</li></a>
+      </ul>
+    </div>
+  </div>
+</header>
