@@ -41,7 +41,7 @@ app.use((req, res) => {
   res.send(`this is an error page <br /> <a href='/'>home</a>`);
   // res.render();
 });
-const PORT = process.env.PORT || 2007;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log("the server is running,awaiting response");
 });
